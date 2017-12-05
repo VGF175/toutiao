@@ -1,0 +1,139 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    font-size: 16px;
+}
+section.search {
+    width: 100%;
+    height: .65rem;
+    background: indianred;
+    overflow: hidden;
+    display: flex;
+}
+
+section.search > input {
+    width: 83%;
+    display: block;
+    margin: .1rem 0;
+    margin-right: 2%;
+    float: left;
+    height: 0.45rem;
+    border: none;
+    outline: none;
+    border-radius: .05rem;
+    box-sizing: border-box;
+    padding-left: 1em;
+}
+body{
+    background: #EAEAEA;
+}
+.sosuo {
+    float: right;
+    width: 10%;
+    height: 0.45rem;
+    line-height: 0.4rem;
+    margin-right: 0.04rem;
+    color: #faf7ea;
+    padding: 0.1rem;
+}
+
+#back {
+    font-size: 16px;
+    float: left;
+    width: 10%;
+    height: 0.45rem;
+    line-height: 0.47rem;
+    /* margin-left: 0.14rem; */
+    color: #faf7ea;
+    text-align: center;
+    padding: 0.1rem;
+}
+
+#back div {
+    font-size: 0.35rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: '宋体';
+    color: #faf7ea;
+}
+#record{
+    width: auto;height: auto;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+}
+#record p{
+    margin: 0.2rem 0;
+    color: #666666;
+}
+#record span{
+    font-size: 0.3rem;
+    color: #fff;
+    margin-right: 0.2rem;
+    border-radius: 0.2rem;
+    background: skyblue;
+    box-sizing: border-box;
+    padding: 0 0.2rem;
+    margin-bottom: 0.2rem;
+}
+#gd{
+    position: fixed;
+    top: 0;width: 0.85rem;height: 0.81rem;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+#gd img{
+    display: block;
+    width: 120%;height: 120%;
+}
+.content{
+    width:100%;
+    padding: 0.2rem;box-sizing: border-box;
+    height: auto;
+}
+.content .list a{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding: 0.05rem;
+    line-height: 0.48rem;
+    color: #000;
+    text-decoration: none;
+}
+.left{
+    width: 40%;
+    height: 1.08rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.left img{
+    width: 90%;
+}
+.span{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.con{
+    width: 60%;
+    /*padding: 0.1rem;*/
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap:wrap;
+    align-content:space-between;
+    justify-content:space-between;
+    text-align:justify;
+    line-height: 0.38rem;
+}
+i{
+    font-size: 0.12rem;
+    color: #666;
+}
+.content li{
+    margin-bottom: 0.2rem;
+    border-bottom: 0.01rem solid #eaeaea;
+}
